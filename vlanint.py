@@ -107,3 +107,4 @@ def alpha(vlan, ip_add, account_no, company_name, bandwidth, qospolice, alpha):
 
 alpha(info["vlan"], info["ip_add"], info["account_no"], info["company_name"], info["bandwidth"], bandwidth_qos, "1st")
 alpha(info["vlan"], info["ip_add"], info["account_no"], info["company_name"], info["bandwidth"], bandwidth_qos, "2nd")
+#https://github.com/ledzep84
