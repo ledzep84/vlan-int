@@ -72,7 +72,7 @@ def alpha(vlan, ip_add, account_no, company_name, bandwidth, qospolice, alpha):
 	print "interface Vlan%s" % (vlan)
 	print " description %s %s" % (account_no, company_name)
 	print " ip address %s" % (int_ip)
-	print " ip router ospf 100 area 0.0.0.1”
+	print " ip router ospf 100 area 0.0.0.1"
 	print " hsrp version 2"
 	print "  hsrp %s" % (vlan)
 	print "  preempt"
